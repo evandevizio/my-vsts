@@ -1,5 +1,5 @@
 # my-vsts
-A collection of VST effect plugins I made using the JUCE C++ framework. Add these software modules to your DAW for maximum audio mangling and manipulation!
+A collection of VST effect plugins using the JUCE C++ framework. Add these software modules to your DAW for maximum audio mangling and manipulation!
 
 ## Summary
 This repository contains the dll files and source files for three different VST plugins I developed using JUCE. Their names are "AStateVariableFilter", "ADistortionEffect", and "ABitcrusherEffect". Very self-descriptive! **The included dll files are in VST format for 64-bit Windows systems**. The GUI controls are flexible, allowing both horizontal and vertical mouse movements, and the parameters can be mapped to MIDI devices. To install, move one or more of the dll files to the directory where your DAW scans for VST plugins. In order to build these plugins yourself, you will need the C++ source files, the JUCE library code, and the VST SDK from Steinberg.
